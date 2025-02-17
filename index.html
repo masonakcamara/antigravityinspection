@@ -1,175 +1,97 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Anti-Gravity Inspection</title>
-
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-
     <style>
-
+        * {
+            box-sizing: border-box;
+        }
         body {
-
             font-family: Arial, sans-serif;
-
             margin: 0;
-
             padding: 0;
-
             background-color: #f4f4f4;
-
             color: #333;
-
             text-align: center;
-
         }
-
         header {
-
             background-color: #000;
-
             color: #fff;
-
             padding: 20px 0;
-
         }
-
         header img {
-
             max-width: 150px;
-
         }
-
         main {
-
             padding: 20px;
-
         }
-
         .content {
-
             max-width: 600px;
-
             margin: 0 auto;
-
+            padding: 0 15px;
         }
-
         form {
-
             background-color: #fff;
-
-            padding: 20px;
-
+            padding: 25px;
             border-radius: 10px;
-
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
         }
-
         form input, form textarea, form button {
-
             width: 100%;
-
-            margin-bottom: 15px;
-
-            padding: 10px;
-
+            margin-bottom: 10px;
+            padding: 12px;
             border: 1px solid #ccc;
-
             border-radius: 5px;
-
         }
-
         form button {
-
             background-color: #000;
-
             color: #fff;
-
             border: none;
-
             cursor: pointer;
-
         }
-
         form button:hover {
-
             background-color: #444;
-
         }
-
         footer {
-
             margin-top: 20px;
-
             font-size: 14px;
-
             color: #777;
-
         }
-
+        @media (max-width: 600px) {
+            form {
+                padding: 20px;
+            }
+        }
     </style>
-
 </head>
-
 <body>
 
-
-
 <header>
-
     <img src="logo.png" alt="Anti-Gravity Inspection Logo">
-
     <h1>Anti-Gravity Inspection</h1>
-
-    <p>Your experts in making sure gravity still works!</p>
-
+    <p>Your experts in testing if gravity still works!</p>
 </header>
 
-
-
 <main>
-
     <div class="content">
-
         <h2>Contact Us</h2>
-
         <p>Interested in having us inspect your building? Fill out the form below!</p>
 
-
-
-        <form action="https://formspree.io/f/xovjkjoz" method="POST">
-
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
             <input type="text" name="name" placeholder="Your Name" required>
-
             <input type="email" name="email" placeholder="Your Email" required>
-
             <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-
             <button type="submit">Send Message</button>
-
         </form>
-
     </div>
-
 </main>
 
-
-
 <footer>
-
     <p>&copy; 2025 Anti-Gravity Inspection. All rights reserved.</p>
-
 </footer>
 
-
-
 </body>
-
 </html>
